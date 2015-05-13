@@ -10,7 +10,7 @@ function drawShape(){
  
     ctx.lineWidth =1 ;
     ctx.beginPath();  
-    ctx.moveTo(1366/2,768/2);
+    ctx.moveTo(5,5);
     ctx.lineTo(5,100);
     ctx.lineTo(300,100);
     ctx.lineTo(5,5);
