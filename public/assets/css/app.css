@@ -1,0 +1,55 @@
+h1 {
+    color: #000000;
+}
+
+p {
+    color: #000;
+}
+
+.top-buffer {
+    margin-top: 30px;
+}
+
+.navbar-default {
+    background-color: white !important;
+    border-color: #e4e4e4;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 150px;
+    width: 100%;
+    background: transparent;
+    border-top: none;
+    z-index: 10;
+}
+
+.footer-section {
+    height: 150px;
+}
+
+.terminal {
+    color: #00ff00;
+}
+
+.turtle {
+    width: 0px;
+    height: 0px;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 20px solid #2f2f2f;
+}
+
+.turtle:hover {
+
+  transform: rotate(45deg);
+  
+}
+.rotate {
+  transition: all 0.5s ease-in-out;
+}
+.rotate:hover {
+  transition: all 1s ease-in-out;
+}
